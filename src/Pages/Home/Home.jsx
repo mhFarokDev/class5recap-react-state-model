@@ -24,8 +24,8 @@ const Home = () => {
         <div className='counter'>
             <h1>Counter</h1>
                 <div className="num">{count}</div>
-                <button onClick={()=>setCount(count+1)}>++</button>
                 <button onClick={()=>setCount(count <= 0 ? 0 : count-1)}>--</button>
+                <button onClick={()=>setCount(count+1)}>++</button>
                 <button onClick={()=>setCount(0)}>Reset</button>
 
         </div>
