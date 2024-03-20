@@ -1,0 +1,66 @@
+.color-boxes{
+    width: 100%;
+    text-align: center;
+    .box{
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin: auto;
+    }
+    .buttons{
+        margin-top: 20px;
+        button{
+            padding: 6px 15px;
+            margin-right: 10px;
+            border: none;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.counter{
+    width: 100%;
+    text-align: center;
+    h1{
+        background-color: green;
+        color: #fff;
+        padding: 20px;
+    }
+    .num{
+        font-size: 50px;
+        font-family: monospace;
+        margin-bottom: 20px;
+    }
+    button{
+        padding: 6px 15px;
+        margin-right: 10px;
+        border: 1px solid rgb(73, 73, 73);
+        color: #000000;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+.modal-section{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0px;
+    h1{
+        background-color: rgb(195, 106, 184);
+        color: #fff;
+        padding: 20px;
+    }
+    button{
+        padding: 10px 30px;
+        margin-right: 10px;
+        border: 1px solid rgb(73, 73, 73);
+        color: #000000;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
